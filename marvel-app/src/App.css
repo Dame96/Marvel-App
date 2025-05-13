@@ -1,0 +1,33 @@
+/* Css Styling for Marvel App, Backgrounds */
+
+/* App.css */
+
+.page-background {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    padding: 3rem;
+    color: white;
+  }
+  
+  /* Specific backgrounds for each page */
+  .home-background {
+    background-image: url('photo-milky-way.avif');
+  }
+  
+  .characters-background {
+    background-image: url('photo-arial-city.avif');
+  }
+  
+  .cyo-background {
+    background-image: url('istockphoto-lab.jpg');
+  }
+  
+  /* Optional: overlay for text readability */
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 2rem;
+    border-radius: 8px;
+  }
+  
